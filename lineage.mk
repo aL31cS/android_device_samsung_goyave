@@ -1,4 +1,4 @@
-## Specify phone tech before including full_phone	
+## Specify phone tech before including full_phone
 $(call inherit-product, vendor/cm/config/telephony.mk)
 
 # Release name
@@ -8,11 +8,11 @@ PRODUCT_RELEASE_NAME := core33g
 $(call inherit-product, vendor/cm/config/common_mini_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/core33g.mk)
+$(call inherit-product, $(LOCAL_PATH)/goyave.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := core33g
-PRODUCT_NAME := lineage_core33g
+PRODUCT_NAME := lineage_goyave
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T113NU
 PRODUCT_MANUFACTURER := samsung

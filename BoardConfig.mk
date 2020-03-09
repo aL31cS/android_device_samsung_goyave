@@ -16,7 +16,7 @@
 -include device/samsung/scx30g-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/core33g/BoardConfigVendor.mk
+-include vendor/samsung/goyave/BoardConfigVendor.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sc7730s
@@ -60,7 +60,7 @@ TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SM-G360H,SM-G360HU,core33g,core33gdd,core33gdx
+TARGET_OTA_ASSERT_DEVICE := SM-T116,SM-T113,goyave3g,goyave
 
 # Gralloc
 TARGET_UPDATED_MALI := true

@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/samsung/core33g
+LOCAL_PATH := device/samsung/goyave
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit from vendor tree
-$(call inherit-product-if-exists, vendor/samsung/core33g/core33g-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/goyave/goyave-vendor.mk)
 
 # Inherit from scx30g-common device configuration
 $(call inherit-product, device/samsung/scx30g-common/common.mk)
@@ -63,8 +63,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_core33g
-PRODUCT_DEVICE := core33g
+PRODUCT_NAME := full_goyave
+PRODUCT_DEVICE := goyave
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-T113NU
