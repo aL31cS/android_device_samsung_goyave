@@ -11,7 +11,7 @@ $(call inherit-product, vendor/cm/config/common_mini_tablet_wifionly.mk)
 $(call inherit-product, $(LOCAL_PATH)/goyave.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := core33g
+PRODUCT_DEVICE := goyave
 PRODUCT_NAME := lineage_goyave
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T113NU
