@@ -52,8 +52,8 @@ WIFI_BAND := 802_11_ABG
 BOARD_HAVE_SAMSUNG_WIFI := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogen_core33g_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/core33g
+TARGET_KERNEL_CONFIG := goyavewifi-dt_hw04_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/goyave
 
 # Resolution
 TARGET_SCREEN_HEIGHT := 1024
